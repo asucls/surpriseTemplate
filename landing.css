@@ -1,0 +1,62 @@
+body {
+    background-color: #001628;
+    color: #99D9D9;
+    overflow: hidden;
+    font-size: 18px;
+}
+#intro {
+    margin: 7% 0;
+    text-align: center;
+}
+.container {
+    margin: auto;
+    padding: 0;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.let {
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 22px;
+}
+.active {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 8px;
+    padding: 5px;
+    text-shadow: 0px 0px 25px rgb(255, 255, 255);;
+}
+.que-container, .ans-container {
+    display: none;
+    text-align: center;
+    margin: 25px;
+}
+button {
+    margin-left: 15px;
+}
+.hint {
+    font-size: 0px;
+}
+.result {
+    display: block;
+    text-align: center;
+}
+.video {
+    display: none;
+}
+@media screen and (min-width: 600px) {
+
+}
+@media screen and (max-width: 600px) {
+    #intro {
+        margin: 14% 0;
+    }
+    .video {
+        width: 280px;
+        height: 155px;
+        text-align: center;
+    }
+}
